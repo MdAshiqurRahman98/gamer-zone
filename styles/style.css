@@ -228,3 +228,51 @@ body {
     right: 430px;
     top: 1485px;
 }
+
+/* Games buttons style */
+
+.games-btns {
+    width: 87%;
+    margin-right: 50px;
+    margin-left: 70px;
+    text-align: center;
+}
+
+.games-btns img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+.games-btns-1 {
+    margin-bottom: 21px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.games-btns-1 button {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #0B0223;
+    background-color: white;
+    border: none;
+    padding: 9px 15px;
+    border-radius: 41px;
+}
+
+.games-btns-2 {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.games-btns-2 button {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #0B0223;
+    background-color: white;
+    border: none;
+    padding: 9px 15px;
+    border-radius: 41px;
+}
