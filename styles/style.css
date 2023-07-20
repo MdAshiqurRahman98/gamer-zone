@@ -30,7 +30,6 @@ body {
     font-size: 16px;
     font-weight: 500;
     text-decoration: none;
-    cursor: pointer;
     padding: 10px;
     display: block;
 }
@@ -42,6 +41,12 @@ body {
 
 .links {
     margin-right: 10px;
+}
+
+.link {
+    background-color: rgba(11, 2, 35, 0.10);
+    border-radius: 7px;
+    border: none;
 }
 
 .nav-left {
@@ -279,7 +284,7 @@ body {
 }
 
 .games-btns button::after {
-    display:block;
+    display: block;
     content: '';
     color: #FF42A5;
     border: 1px solid #FF42A5; 
@@ -295,11 +300,13 @@ body {
 .footer {
     padding: 30px;
     background: #0B0223;
+    height: 450px;
 }
 
 .footer-logo-content {
     width: 100%;
     margin-left: 500px;
+    height: 121px;
 }
 
 .amer {
@@ -328,29 +335,231 @@ body {
     color: #0B0223;
 }
 
-.words {
+.footer-words {
     display: flex;
-    justify-content: space-evenly;
-    color: white;
-    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 70px;
 }
 
-.text-secondary {
+.footer-words-1 {
+    margin-left: 23%;
+}
+
+.footer-words-2 {
+    margin-right: 21%;
+}
+
+.socials-btn {
+    background-color: #0B0223;
+    border: none;
+    border-radius: 25px;
+    font-size: 32px;
+    padding: 5px;
+    margin: 10px;
+    width: 50px;
+}
+
+footer .fa-brands {
     color: #FFFFFF;
 }
 
-.text-description {
-    color: #FFFFFFE5;
-    text-align: center;
-    font-size: 11px;
-    font-weight: 385;
-    margin-bottom: 30px;
+.socials {
+    width: 100%;
+    padding-left: 495px;
+    height: 87px;
+}
+
+.footer-word {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer-word-1 {
+    margin-left: 25%;
+}
+
+.footer-word-2 {
+    margin-right: 23.9%;
 }
 
 .copyright {
-    color: #FFFFFF66;
-    text-align: center;
-    font-size: 9px;
-    font-weight: 385;
-    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.copyright-1 {
+    margin-left: 33%;
+}
+
+.copyright-2 {
+    margin-right: 33.35%;
+}
+
+/* Media Query for Mobile  */
+
+@media screen and (max-width: 576px) {
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 85vh;
+    }
+
+    .nav-right {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-left {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .funny-videos-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .play-ins {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .games-btns-1 {
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .games-btns-2 {
+        margin-bottom: 23px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer-logo {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer-words {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer-word {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .copyright {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+/* Media Query for Tablet */
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-right {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-left {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .funny-videos-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .play-ins {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .games-btns-1 {
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .games-btns-2 {
+        margin-bottom: 23px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer-logo {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer-words {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer-word {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .copyright {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 }
